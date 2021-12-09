@@ -13,7 +13,7 @@ services:
       - ./db.env
 
   app:
-    image: matomo:fpm-alpine
+    image: matomo:4.6-fpm
     restart: always
     volumes:
       # - ./config:/var/www/html/config:rw
